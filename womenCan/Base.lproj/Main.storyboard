@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -46,9 +46,6 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Y4k-f8-hgl" kind="show" id="ve8-JE-yyE"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGG-7u-8eI">
                                 <rect key="frame" x="194" y="618" width="166" height="63"/>
@@ -81,14 +78,14 @@
         <scene sceneID="rA5-x5-o6s">
             <objects>
                 <viewController id="b4W-8t-Gwt" customClass="SecondViewController" customModule="womenCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Nku-qT-ack">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Nku-qT-ack">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CEo-5N-QxI">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CEo-5N-QxI">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i58-mV-PA0">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i58-mV-PA0">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2349.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mez-vA-FMe">
@@ -186,22 +183,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="calendar.badge.exclamationmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0ky-KL-UPI">
-                                <rect key="frame" x="61" y="676.5" width="96" height="84"/>
+                                <rect key="frame" x="28" y="593.5" width="138" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.87450981139999995" green="0.69019609689999994" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2mV-Bi-Biq">
-                                <rect key="frame" x="61" y="412" width="94" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.87450981139999995" green="0.69019609689999994" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OUU-Jq-FNl">
-                                <rect key="frame" x="67" y="534.5" width="82" height="80"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="calendar" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bWG-Sq-X7z">
+                                <rect key="frame" x="20" y="443.5" width="138" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.87450981139999995" green="0.69019609689999994" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJ1-kV-F02">
-                                <rect key="frame" x="207" y="695" width="144" height="47"/>
+                                <rect key="frame" x="187" y="614" width="186" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.87450981139999995" green="0.69019609689999994" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -215,26 +207,16 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Y4k-f8-hgl" kind="show" id="y6H-pJ-1Kv"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPD-8i-xsL">
-                                <rect key="frame" x="207" y="551" width="144" height="49"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Women Can" translatesAutoresizingMaskIntoConstraints="NO" id="9nU-5U-79f">
+                                <rect key="frame" x="28" y="102" width="359" height="268"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.87450981139999995" green="0.69019609689999994" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" cornerStyle="capsule">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Search">
-                                            <attributes>
-                                                <color key="NSColor" red="0.87450981139999995" green="0.69019609689999994" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <font key="NSFont" size="28" name="Didot-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XKw-jB-Hac">
-                                <rect key="frame" x="207" y="424" width="144" height="49"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ol0-fk-Nb7">
+                                <rect key="frame" x="187" y="465" width="186" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.87450981139999995" green="0.69019609689999994" blue="0.68627452850000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -250,10 +232,6 @@
                                     </attributedString>
                                 </buttonConfiguration>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Women Can" translatesAutoresizingMaskIntoConstraints="NO" id="9nU-5U-79f">
-                                <rect key="frame" x="28" y="102" width="359" height="268"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="flq-k9-1QN"/>
                         <color key="backgroundColor" red="0.9529411793" green="0.9529411793" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -896,6 +874,9 @@ CQ
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="adaButton:" destination="Y4k-f8-hgl" eventType="touchUpInside" id="zbp-rA-Ctz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUR-RR-q4j">
                                                 <rect key="frame" x="27" y="672" width="361" height="60"/>
@@ -932,6 +913,9 @@ CQ
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="codebarButton:" destination="Y4k-f8-hgl" eventType="touchUpInside" id="CP1-sa-6QP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6s-AX-wwu">
                                                 <rect key="frame" x="7" y="1026" width="398" height="94"/>
@@ -1155,6 +1139,9 @@ CQ
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="gdiButton:" destination="Y4k-f8-hgl" eventType="touchUpInside" id="WbY-hZ-OQ8"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCS-Fv-Vka">
                                                 <rect key="frame" x="7" y="1320" width="398" height="94"/>
@@ -1183,7 +1170,7 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
@@ -1199,7 +1186,7 @@ CQ
                                                     </fragment>
                                                     <fragment content="Courses &amp; Workshops">
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
@@ -1221,7 +1208,7 @@ CQ
                                                         <string key="content">: Digital Drawing, HTML &amp; CSS, Video Creation, WordPress, Game Design, and more! 
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -1241,7 +1228,7 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
@@ -1257,7 +1244,7 @@ CQ
                                                     </fragment>
                                                     <fragment content="Price">
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
@@ -1279,7 +1266,7 @@ CQ
                                                         <string key="content">: Free 
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -1299,7 +1286,7 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
@@ -1315,7 +1302,7 @@ CQ
                                                     </fragment>
                                                     <fragment content="Duration">
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
@@ -1337,7 +1324,7 @@ CQ
                                                         <string key="content">: 3 to 16 hours 
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -1357,7 +1344,7 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
@@ -1373,7 +1360,7 @@ CQ
                                                     </fragment>
                                                     <fragment content="Location">
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
@@ -1391,11 +1378,9 @@ CQ
                                                             <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment>
-                                                        <string key="content">: Cities across Canada 
-</string>
+                                                    <fragment content=": Cities across Canada">
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -1430,6 +1415,9 @@ CQ
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="llcButton:" destination="Y4k-f8-hgl" eventType="touchUpInside" id="XEE-80-E1Q"/>
+                                                </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Screen Shot 2022-08-04 at 1.30.44 PM" translatesAutoresizingMaskIntoConstraints="NO" id="n0Y-zU-HR0">
                                                 <rect key="frame" x="11" y="1370" width="166" height="196"/>
@@ -1442,7 +1430,7 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
@@ -1458,7 +1446,7 @@ CQ
                                                     </fragment>
                                                     <fragment content="Workshops">
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
@@ -1480,7 +1468,7 @@ CQ
                                                         <string key="content">: Vary based on location
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -1500,7 +1488,7 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
@@ -1516,7 +1504,7 @@ CQ
                                                     </fragment>
                                                     <fragment content="Price">
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
@@ -1538,7 +1526,7 @@ CQ
                                                         <string key="content">: Free or affordable
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -1558,7 +1546,7 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
@@ -1574,7 +1562,7 @@ CQ
                                                     </fragment>
                                                     <fragment content="Locations">
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
@@ -1592,11 +1580,9 @@ CQ
                                                             <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment>
-                                                        <string key="content">: Dozens of locations both inside and outside the US 
-</string>
+                                                    <fragment content=": Dozens of locations both inside and outside the US">
                                                         <attributes>
-                                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -1631,6 +1617,9 @@ CQ
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="pyladiesButton:" destination="Y4k-f8-hgl" eventType="touchUpInside" id="HTA-7Z-0NZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnX-nl-Ch8">
                                                 <rect key="frame" x="9" y="1634" width="398" height="94"/>
@@ -1751,9 +1740,7 @@ CQ
                                                             <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment>
-                                                        <string key="content">: Worldwide 
-</string>
+                                                    <fragment content=": Worldwide">
                                                         <attributes>
                                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
@@ -1790,6 +1777,9 @@ CQ
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="railsgirlsButton:" destination="Y4k-f8-hgl" eventType="touchUpInside" id="Otx-RB-YEO"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3O7-r6-4Ua">
                                                 <rect key="frame" x="10" y="1919" width="398" height="94"/>
@@ -2007,6 +1997,9 @@ CQ
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="railsbridgeButton:" destination="Y4k-f8-hgl" eventType="touchUpInside" id="CEB-U8-Twu"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.87450981139999995" green="0.69411766529999996" blue="0.69019609689999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -2041,6 +2034,15 @@ CQ
                     </view>
                     <navigationItem key="navigationItem" id="a9R-7A-6TF"/>
                     <size key="freeformSize" width="416" height="842"/>
+                    <connections>
+                        <outlet property="adaButton" destination="dys-h4-Mnz" id="D6Z-Ld-XEF"/>
+                        <outlet property="codebarButton" destination="Vjf-f2-zaK" id="m90-7a-bKe"/>
+                        <outlet property="gdiButton" destination="PMD-AN-I8F" id="v2o-Ql-hMx"/>
+                        <outlet property="llcButton" destination="3bw-72-uJP" id="OoF-yy-X2G"/>
+                        <outlet property="pyladiesButton" destination="FIF-RA-r1Q" id="pX6-YL-2N2"/>
+                        <outlet property="railsbridgeButton" destination="rJP-Fc-d08" id="gai-UD-V86"/>
+                        <outlet property="railsgirlsButton" destination="bgJ-MO-R5e" id="QFI-8s-lEF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0AV-mC-WuC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2058,7 +2060,6 @@ CQ
         <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="calendar.badge.exclamationmark" catalog="system" width="128" height="108"/>
         <image name="download" width="200" height="200"/>
-        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
