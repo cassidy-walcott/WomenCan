@@ -104,6 +104,10 @@
                                     </attributedString>
                                 </buttonConfiguration>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="pngtree-august-2022-simple-calendar-png-image_4572637-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="IdU-W3-c4i">
+                                <rect key="frame" x="-8" y="54" width="451" height="448"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4fN-hc-lr9"/>
                         <color key="backgroundColor" red="0.87450981139999995" green="0.69411766529999996" blue="0.69019609689999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -113,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M9s-l2-njM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1451" y="65"/>
+            <point key="canvasLocation" x="1450.7246376811595" y="64.955357142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="J89-5b-X7N">
@@ -2086,6 +2090,7 @@ CQ
         <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="calendar.badge.exclamationmark" catalog="system" width="128" height="108"/>
         <image name="download" width="200" height="200"/>
+        <image name="pngtree-august-2022-simple-calendar-png-image_4572637-removebg-preview" width="360" height="360"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
