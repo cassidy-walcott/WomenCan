@@ -66,6 +66,9 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="9hv-H0-1So" kind="show" id="zag-ws-eTy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -82,32 +85,35 @@
             <objects>
                 <viewController id="9hv-H0-1So" customClass="ThirdViewController" customModule="womenCan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VZY-lM-ZTd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6z-aF-SMa">
+                                <rect key="frame" x="63" y="15" width="288" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Calendar">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99207764863967896" green="0.99269634485244751" blue="0.99322158098220825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="62" name="Didot-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="4fN-hc-lr9"/>
-                        <color key="backgroundColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.87450981139999995" green="0.69411766529999996" blue="0.69019609689999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.9529411793" green="0.9529411793" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="D6a-8p-53M"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M9s-l2-njM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1412" y="65"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Px9-yt-Guz">
-            <objects>
-                <viewController id="rCr-9m-8ld" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="san-bL-6s5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="VE5-rU-KzL"/>
-                        <color key="backgroundColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.9529411793" green="0.9529411793" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="s9O-b3-4ad" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2117" y="65"/>
+            <point key="canvasLocation" x="1451" y="65"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="J89-5b-X7N">
@@ -166,7 +172,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="flq-k9-1QN"/>
-                        <color key="backgroundColor" red="0.9529411793" green="0.9529411793" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.9529411793" green="0.9529411793" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
@@ -189,7 +195,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="416" height="2198.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MD8-0k-cDZ">
-                                                <rect key="frame" x="101" y="389" width="213" height="76"/>
+                                                <rect key="frame" x="93" y="380" width="213" height="76"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
@@ -198,22 +204,6 @@
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <font key="NSFont" size="28" name="Verdana-Bold"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                </buttonConfiguration>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Lg-WN-vDJ">
-                                                <rect key="frame" x="9" y="8" width="398" height="94"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain">
-                                                    <attributedString key="attributedTitle">
-                                                        <fragment content="Events">
-                                                            <attributes>
-                                                                <color key="NSColor" red="0.99207764863967896" green="0.99269634485244751" blue="0.99322158098220825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="51" name="Didot-Bold"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -241,7 +231,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnu-I0-jCZ">
-                                                <rect key="frame" x="143" y="453" width="269" height="156"/>
+                                                <rect key="frame" x="135" y="444" width="269" height="156"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
@@ -811,7 +801,7 @@ CQ
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUR-RR-q4j">
-                                                <rect key="frame" x="27" y="672" width="361" height="60"/>
+                                                <rect key="frame" x="25" y="691" width="361" height="60"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
@@ -827,11 +817,11 @@ CQ
                                                 </buttonConfiguration>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="dbk-g7-L3h">
-                                                <rect key="frame" x="21" y="455" width="139" height="144"/>
+                                                <rect key="frame" x="13" y="446" width="139" height="144"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vjf-f2-zaK">
-                                                <rect key="frame" x="81" y="617" width="253" height="26"/>
+                                                <rect key="frame" x="73" y="608" width="253" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" cornerStyle="large">
@@ -850,7 +840,7 @@ CQ
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6s-AX-wwu">
-                                                <rect key="frame" x="7" y="1026" width="398" height="94"/>
+                                                <rect key="frame" x="3" y="997" width="398" height="94"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
@@ -866,19 +856,19 @@ CQ
                                                 </buttonConfiguration>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Screen Shot 2022-08-04 at 1.14.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="h1z-qB-UMw">
-                                                <rect key="frame" x="9" y="708" width="168" height="175"/>
+                                                <rect key="frame" x="6" y="752" width="168" height="175"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cR-zr-iUj">
-                                                <rect key="frame" x="156" y="721" width="252" height="196"/>
+                                                <rect key="frame" x="154" y="735" width="252" height="209"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="ArialMT"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13.666666984558105" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -890,12 +880,13 @@ CQ
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Courses">
+                                                    <fragment content="Courses: ">
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="11" name="Verdana-Bold"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <font key="NSOriginalFont" size="13.666666984558105" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -910,13 +901,13 @@ CQ
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">: The GDI core curriculum is as follows: Intro to Web Concepts, Intro to HTML/CSS, Intermediate HTML/CSS, Intro to JavaScript, Intro to Angular.js, Web Accessibility, Intro to Git/GitHub, and Intro to PHP/MySQL.
+                                                        <string key="content">Intro to Web Concepts, Intro to HTML/CSS, Intro to JavaScript, and more!
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="11" name="Verdana"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -933,9 +924,9 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="11" name="Verdana"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13.666666984558105" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -947,13 +938,13 @@ CQ
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Price">
+                                                    <fragment content="Price:">
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="11" name="Verdana-Bold"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="11" name="Verdana-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <font key="NSOriginalFont" size="13.666666984558105" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -968,13 +959,13 @@ CQ
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">: Varies, depending on the workshop; typically ranges from free to $90
+                                                        <string key="content"> Varies
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="11" name="Verdana"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -986,41 +977,32 @@ CQ
                                                             </paragraphStyle>
                                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j06-80-QEx">
-                                                <rect key="frame" x="5" y="869" width="199" height="196"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment>
-                                                        <string key="content">Duration: Varies; typically last between two and eight hours. Workshops can either be a one-time thing, or involve multiple sessions.
-</string>
-                                                        <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="11" name="Verdana"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000000000001" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
-                                                                <tabStops>
-                                                                    <textTab alignment="left" location="11">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="natural" location="36">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                </tabStops>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="11" name="Verdana"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.649999999999999" headIndent="36" minimumLineHeight="17.600000000000001" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13.666666984558105" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="11">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                    <textTab alignment="natural" location="36">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Duration: ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13.666666984558105" name="Verdana-Bold"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="13.666666984558105" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1031,16 +1013,17 @@ CQ
                                                                 </tabStops>
                                                             </paragraphStyle>
                                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">Location: Chapters in five cities: San Francisco, Washington, D.C., Chicago, IL, Detroit, MI, New York, NY 
+                                                        <string key="content">Workshop lengths are different from chapter to chapter
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="11" name="Verdana"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.649999999999999" headIndent="36" minimumLineHeight="17.600000000000001" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1051,13 +1034,70 @@ CQ
                                                                 </tabStops>
                                                             </paragraphStyle>
                                                             <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment>
+                                                        <string key="content">	•	</string>
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13.666666984558105" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="11">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                    <textTab alignment="natural" location="36">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Locations:">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13.666666984558105" name="Verdana-Bold"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="13.666666984558105" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="11">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                    <textTab alignment="natural" location="36">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" San Francisco, Washington, D.C., Chicago, IL, Detroit, MI, New York, NY">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="13.666666984558105" name="Verdana"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="11">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                    <textTab alignment="natural" location="36">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMD-AN-I8F">
-                                                <rect key="frame" x="226" y="965" width="177" height="26"/>
+                                                <rect key="frame" x="81" y="935" width="250" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" cornerStyle="large">
@@ -1076,7 +1116,7 @@ CQ
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCS-Fv-Vka">
-                                                <rect key="frame" x="7" y="1320" width="398" height="94"/>
+                                                <rect key="frame" x="114" y="1317" width="170" height="51"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
@@ -1092,19 +1132,19 @@ CQ
                                                 </buttonConfiguration>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Screen Shot 2022-08-04 at 1.25.39 PM" translatesAutoresizingMaskIntoConstraints="NO" id="wAd-Wd-q7S">
-                                                <rect key="frame" x="10" y="1073" width="167" height="140"/>
+                                                <rect key="frame" x="3" y="1079" width="167" height="140"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lM-um-egm">
-                                                <rect key="frame" x="151" y="1101" width="265" height="232"/>
+                                                <rect key="frame" x="155" y="1068" width="250" height="162"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1116,13 +1156,13 @@ CQ
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Courses &amp; Workshops">
+                                                    <fragment content="Courses &amp; Workshops: ">
                                                         <attributes>
-                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1137,13 +1177,13 @@ CQ
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">: Digital Drawing, HTML &amp; CSS, Video Creation, WordPress, Game Design, and more! 
+                                                        <string key="content">Digital Drawing, HTML &amp; CSS, Video Creation, WordPress, Game Design, And more!
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1160,9 +1200,9 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1174,13 +1214,13 @@ CQ
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Price">
+                                                    <fragment content="Price:">
                                                         <attributes>
-                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1195,13 +1235,13 @@ CQ
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">: Free 
+                                                        <string key="content"> Free
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1218,9 +1258,9 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1230,36 +1270,16 @@ CQ
                                                                     </textTab>
                                                                 </tabStops>
                                                             </paragraphStyle>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="Duration">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops>
-                                                                    <textTab alignment="left" location="11">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                    <textTab alignment="natural" location="36">
-                                                                        <options/>
-                                                                    </textTab>
-                                                                </tabStops>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">: 3 to 16 hours 
+                                                        <string key="content">Duration: 3 to 16 hours
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1276,9 +1296,9 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1290,13 +1310,13 @@ CQ
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Location">
+                                                    <fragment content="Location:">
                                                         <attributes>
-                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1310,12 +1330,12 @@ CQ
                                                             <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content=": Cities across Canada">
+                                                    <fragment content=" Cities across Canada">
                                                         <attributes>
-                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99369078874588013" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="14.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1333,7 +1353,7 @@ CQ
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bw-72-uJP">
-                                                <rect key="frame" x="10" y="1221" width="160" height="42"/>
+                                                <rect key="frame" x="73" y="1238" width="253" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" cornerStyle="large">
@@ -1352,18 +1372,18 @@ CQ
                                                 </connections>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Screen Shot 2022-08-04 at 1.30.44 PM" translatesAutoresizingMaskIntoConstraints="NO" id="n0Y-zU-HR0">
-                                                <rect key="frame" x="11" y="1370" width="166" height="196"/>
+                                                <rect key="frame" x="4" y="1350" width="166" height="196"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3k-Bl-1Ch">
-                                                <rect key="frame" x="162" y="1387" width="245" height="179"/>
+                                                <rect key="frame" x="158" y="1359" width="243" height="171"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <font key="NSFont" size="16.666666984558105" name="Verdana"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
@@ -1376,12 +1396,12 @@ CQ
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Workshops">
+                                                    <fragment content="Workshops: ">
                                                         <attributes>
                                                             <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
+                                                            <font key="NSFont" size="16.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
+                                                            <font key="NSOriginalFont" size="16.666666984558105" name="Verdana-Bold"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
@@ -1397,11 +1417,11 @@ CQ
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">: Vary based on location
+                                                        <string key="content">Vary based on location
 </string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <font key="NSFont" size="16.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
@@ -1421,7 +1441,7 @@ CQ
                                                         <string key="content">	•	</string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <font key="NSFont" size="16.666666984558105" name="Verdana"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
@@ -1437,7 +1457,7 @@ CQ
                                                     <fragment content="Price">
                                                         <attributes>
                                                             <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
+                                                            <font key="NSFont" size="16.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -1459,7 +1479,7 @@ CQ
 </string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <font key="NSFont" size="16.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
@@ -1479,7 +1499,7 @@ CQ
                                                         <string key="content">	•	</string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <font key="NSFont" size="16.666666984558105" name="Verdana"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
@@ -1492,12 +1512,12 @@ CQ
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Locations">
+                                                    <fragment content="Locations:">
                                                         <attributes>
                                                             <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
+                                                            <font key="NSFont" size="16.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
+                                                            <font key="NSOriginalFont" size="16.666666984558105" name="Verdana-Bold"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
@@ -1512,10 +1532,10 @@ CQ
                                                             <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content=": Dozens of locations both inside and outside the US">
+                                                    <fragment content=" Dozens of locations both inside and outside the US">
                                                         <attributes>
                                                             <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <font key="NSFont" size="16.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
@@ -1535,7 +1555,7 @@ CQ
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIF-RA-r1Q">
-                                                <rect key="frame" x="82" y="1574" width="253" height="26"/>
+                                                <rect key="frame" x="76" y="1538" width="253" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" cornerStyle="large">
@@ -1554,7 +1574,7 @@ CQ
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnX-nl-Ch8">
-                                                <rect key="frame" x="9" y="1634" width="398" height="94"/>
+                                                <rect key="frame" x="7" y="1589" width="398" height="94"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
@@ -1570,18 +1590,18 @@ CQ
                                                 </buttonConfiguration>
                                             </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Screen Shot 2022-08-04 at 1.35.23 PM" translatesAutoresizingMaskIntoConstraints="NO" id="mGb-wP-9oz">
-                                                <rect key="frame" x="0.0" y="1705" width="189" height="149"/>
+                                                <rect key="frame" x="-3" y="1667" width="189" height="149"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5E-D1-YLf">
-                                                <rect key="frame" x="156" y="1690" width="256" height="164"/>
+                                                <rect key="frame" x="163" y="1660" width="256" height="164"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
                                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <font key="NSFont" size="24.666666984558105" name="Verdana"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
@@ -1594,12 +1614,12 @@ CQ
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Price">
+                                                    <fragment content="Price: ">
                                                         <attributes>
                                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
+                                                            <font key="NSFont" size="24.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
+                                                            <font key="NSOriginalFont" size="24.666666984558105" name="Verdana-Bold"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
@@ -1615,11 +1635,11 @@ CQ
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">: Free
+                                                        <string key="content">Free
 </string>
                                                         <attributes>
                                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <font key="NSFont" size="24.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
@@ -1636,10 +1656,10 @@ CQ
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">	•	</string>
+                                                        <string key="content">	•</string>
                                                         <attributes>
                                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <font key="NSFont" size="24.666666984558105" name="Verdana"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
@@ -1652,12 +1672,32 @@ CQ
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Location">
+                                                    <fragment>
+                                                        <string key="content" base64-UTF8="YES">
+CQ
+</string>
                                                         <attributes>
                                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
+                                                            <font key="NSFont" size="24.666666984558105" name="Verdana-Bold"/>
+                                                            <font key="NSOriginalFont" size="24.666666984558105" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="11">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                    <textTab alignment="natural" location="36">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="Location:">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="24.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
+                                                            <font key="NSOriginalFont" size="24.666666984558105" name="Verdana-Bold"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
@@ -1672,10 +1712,10 @@ CQ
                                                             <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content=": Worldwide">
+                                                    <fragment content=" Worldwide">
                                                         <attributes>
                                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <font key="NSFont" size="24.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
@@ -1695,7 +1735,7 @@ CQ
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgJ-MO-R5e">
-                                                <rect key="frame" x="80" y="1872" width="253" height="26"/>
+                                                <rect key="frame" x="78" y="1834" width="253" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" cornerStyle="large">
@@ -1714,7 +1754,7 @@ CQ
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3O7-r6-4Ua">
-                                                <rect key="frame" x="10" y="1919" width="398" height="94"/>
+                                                <rect key="frame" x="8" y="1891" width="398" height="94"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain">
@@ -1729,20 +1769,16 @@ CQ
                                                     </attributedString>
                                                 </buttonConfiguration>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Screen Shot 2022-08-04 at 1.38.26 PM" translatesAutoresizingMaskIntoConstraints="NO" id="0R2-fH-RQH">
-                                                <rect key="frame" x="11" y="1974" width="140" height="160"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZc-uX-bIS">
-                                                <rect key="frame" x="139" y="1994" width="269" height="162"/>
+                                                <rect key="frame" x="143" y="1962" width="265" height="160"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18.666666984558105" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1754,13 +1790,13 @@ CQ
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Workshops">
+                                                    <fragment content="Workshops: ">
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <font key="NSOriginalFont" size="18.666666984558105" name="Arial-BoldMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1775,13 +1811,13 @@ CQ
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">: Rails, Frontend, JavaScript, Ruby, and CSS 
+                                                        <string key="content">Rails, Frontend, JavaScript, Ruby, CSS
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1798,9 +1834,9 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18.666666984558105" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1812,13 +1848,33 @@ CQ
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Price">
+                                                    <fragment content="Price:">
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <font key="NSOriginalFont" size="18.666666984558105" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="11">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                    <textTab alignment="natural" location="36">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18.666666984558105" name="Verdana"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="18.666666984558105" name="Arial-BoldMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1833,13 +1889,13 @@ CQ
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">: Free
+                                                        <string key="content">Free
 </string>
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1856,9 +1912,9 @@ CQ
                                                     <fragment>
                                                         <string key="content">	•	</string>
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18.666666984558105" name="Verdana"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1870,13 +1926,13 @@ CQ
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="Location">
+                                                    <fragment content="Location:">
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana-Bold"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18.666666984558105" name="Verdana-Bold"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="14.666666984558105" name="Verdana-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <font key="NSOriginalFont" size="18.666666984558105" name="Verdana-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1890,14 +1946,32 @@ CQ
                                                             <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment>
-                                                        <string key="content">: US and some countries outside 
-</string>
+                                                    <fragment content=" ">
                                                         <attributes>
-                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Verdana"/>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18.666666984558105" name="Verdana"/>
                                                             <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" minimumLineHeight="17.600000381469727" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                            <font key="NSOriginalFont" size="17.666666984558105" name="Arial-BoldMT"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops>
+                                                                    <textTab alignment="left" location="11">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                    <textTab alignment="natural" location="36">
+                                                                        <options/>
+                                                                    </textTab>
+                                                                </tabStops>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="US and some countries outside">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99376219511032104" green="0.99314361810684204" blue="0.99315446615219116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18.666666984558105" name="Verdana"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.666666030883789" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops>
                                                                     <textTab alignment="left" location="11">
                                                                         <options/>
@@ -1915,7 +1989,7 @@ CQ
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJP-Fc-d08">
-                                                <rect key="frame" x="80" y="2142" width="253" height="26"/>
+                                                <rect key="frame" x="76" y="2130" width="253" height="26"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" cornerStyle="large">
@@ -1932,6 +2006,26 @@ CQ
                                                 <connections>
                                                     <action selector="railsbridgeButton:" destination="Y4k-f8-hgl" eventType="touchUpInside" id="CEB-U8-Twu"/>
                                                 </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Screen Shot 2022-08-04 at 1.38.26 PM" translatesAutoresizingMaskIntoConstraints="NO" id="0R2-fH-RQH">
+                                                <rect key="frame" x="11" y="1962" width="149" height="160"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Lg-WN-vDJ">
+                                                <rect key="frame" x="87" y="20" width="242" height="82"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Events">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.99207764863967896" green="0.99269634485244751" blue="0.99322158098220825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="62" name="Didot-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </buttonConfiguration>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.87450981139999995" green="0.69411766529999996" blue="0.69019609689999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1978,7 +2072,7 @@ CQ
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0AV-mC-WuC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="713.04347826086962" y="63.616071428571423"/>
+            <point key="canvasLocation" x="744.92753623188412" y="64.955357142857139"/>
         </scene>
     </scenes>
     <resources>
